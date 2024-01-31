@@ -3,6 +3,7 @@ import { nanoid } from 'nanoid';
 import Form from './Form';
 import Items from './Items';
 import { useState } from 'react';
+
 const defaultItems = [
   { id: nanoid(), title: 'walk the dog', isDone: false },
   { id: nanoid(), title: 'wash dishes', isDone: false },
